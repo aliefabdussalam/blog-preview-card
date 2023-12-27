@@ -7,10 +7,10 @@ body{
     display: flex;
     justify-content: center;
     background-color: hsl(47, 88%, 63%);
-
+    height: 960px;
 }
 .container{
-    margin: 40px;
+    margin: auto;
     width: 380px;
     height: 525px;
     background-color: white;
