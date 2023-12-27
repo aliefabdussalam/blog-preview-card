@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(47, 88%, 63%);
+
+}
+.container{
+    margin: 40px;
+    width: 380px;
+    height: 525px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px;
+}
+.content{
+    margin: 25px;
+}
+.pict svg{
+    border-radius: 10px;
+}
+.button{
+    display: flex;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+.button .textButton{
+    margin: auto;
+}
+.date{
+    margin-top: 15px;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title .textTitle{
+    font-size: x-large;
+    font-weight: 800;
+}
+.desc{
+    color: hsl(0, 0%, 50%);
+}
+.auth{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.auth .authPict img {
+    height: 30px;
+}
+.auth .authName{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    font-weight: 800;
+}
